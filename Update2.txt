@@ -1,0 +1,3 @@
+cd /usr/share/.COS_/Cos_Updater/bin/Build/
+
+curl https://raw.githubusercontent.com/re-mc/COS/master/p2.txt > p2.txt
