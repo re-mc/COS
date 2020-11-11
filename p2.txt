@@ -1,4 +1,5 @@
 
 echo "Done!"
-echo "Update $(cat ClientVersion.txt)"
+let Version=$(cat ClientVersion.txt)+1
+echo "Update $Version"
 }
