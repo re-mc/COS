@@ -1,3 +1,4 @@
 
 echo "Done!"
+echo "Update $(cat ClientVersion.txt)"
 }
