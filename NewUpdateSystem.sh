@@ -1,10 +1,11 @@
 #!/bin/bash
 
-
+touch UpdateVersion.txt
 curl https://raw.githubusercontent.com/re-mc/COS/Updates/UpdateVersion.txt > UpdateVersion.txt
 LatestVersion=$(cat UpdateVersion.txt)
 rm UpdateVersion.txt
 
+touch ClientVersion.txt
 if [[ $(cat ClientVersion.txt) != "" ]]; then
 	Version=$(cat ClientVersion.txt)
 else
